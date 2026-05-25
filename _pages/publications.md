@@ -12,8 +12,6 @@ nav_order: 1
   <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ" target="_blank">Google Scholar</a>.
 </p>
 
-{% include bib_search.liquid %}
-
 <div id="year-filter" class="my-3"></div>
 
 <div class="publications">
