@@ -33,10 +33,9 @@ nav_order: 2
 
 | Name | Program | Research |
 |---|---|---|
-| [Tianyi Chen](#) | ML PhD | Reinforcement learning, diffusion policy |
-| [Zihao Zhao](#) | CS PhD | Differentiable optimization, decision-focused learning |
-| [Shing-Hei Ho](#) | ML PhD | First-order methods, optimization layers |
-| [Nathan Blackthorn](#) | ML PhD | — |
+| [Tianyi Chen](https://tianyyiii.github.io/) | ML PhD | Reinforcement learning, diffusion policy |
+| [Zihao Zhao](https://www.zihaozhao.site/) | CS PhD | Differentiable optimization, decision-focused learning |
+| [Shing-Hei Ho](https://sites.google.com/view/shinghei/home) | ML PhD | First-order methods, optimization layers |
 
 ---
 
@@ -63,6 +62,7 @@ nav_order: 2
 
 | Name | Role at KOALA | Now |
 |---|---|---|
+| Nathan Blackthorn | ML PhD | — |
 | Hanmo Zhang | CS Undergrad → MS | MS student at CMU |
 | Kavya Velmurugan | CS MS | Graduated |
 | Chen Lin | Math CSE MS | ML PhD student at Georgia Tech |
