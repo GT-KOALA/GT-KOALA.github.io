@@ -72,8 +72,9 @@ nav_order: 2
 
 ## Join Us
 
-We are looking for **1–2 strong and self-motivated PhD students** starting **Fall 2026**.
-Apply through the [Georgia Tech CSE PhD program](https://cse.gatech.edu/academics/phd).
+The Fall 2026 PhD admission cycle has closed. We may recruit **1–2 PhD students** for
+**Fall 2027** — prospective students are welcome to apply through the
+[Georgia Tech CSE PhD program](https://cse.gatech.edu/academics/phd) and reach out by email.
 
 MS/BS students at Georgia Tech are welcome to take our courses (CSE/ISyE 6740, CSE 8803)
 and reach out afterward. We have limited research capacity for non-PhD students.

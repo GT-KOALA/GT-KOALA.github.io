@@ -11,8 +11,8 @@ nav_order: 5
 
 ### CSE/ISyE 6740 — Computational Data Analysis (Machine Learning)
 
-**Level:** Graduate / Advanced Undergraduate  
-**Frequency:** Fall and Spring semesters
+**Offered:** Fall semesters  
+**Level:** Graduate / Advanced Undergraduate
 
 An introduction to statistical machine learning and data analysis. Topics include:
 supervised learning (regression, classification, SVMs, neural networks),
@@ -23,8 +23,8 @@ probabilistic graphical models, and optimization methods for ML.
 
 ### CSE 8803 — Special Topics: AI for Social Good
 
-**Level:** Graduate  
-**Frequency:** Offered periodically
+**Offered:** Spring semesters  
+**Level:** Graduate
 
 Advanced topics at the intersection of AI, optimization, and social impact applications.
 Topics include decision-focused learning, restless multi-armed bandits, game-theoretic
