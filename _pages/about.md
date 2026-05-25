@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: koala_logo.png
+  image:
   image_circular: false
   more_info: >
     <p>CODA Building, Room S1309</p>
