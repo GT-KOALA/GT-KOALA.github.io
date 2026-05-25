@@ -4,7 +4,7 @@ permalink: /team/
 title: Team
 description: Members of the KOALA Lab at Georgia Tech.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 ## Principal Investigator

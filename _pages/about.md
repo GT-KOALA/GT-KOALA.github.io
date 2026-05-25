@@ -8,13 +8,16 @@ subtitle: >
 
 profile:
   align: right
-  image: koala_logo.png
+  image: kai_wang.jpg
   image_circular: false
   more_info: >
+    <p><strong>Kai Wang</strong></p>
+    <p>Assistant Professor, CSE</p>
+    <p>Georgia Institute of Technology</p>
     <p>CODA Building, Room S1309</p>
     <p>756 W Peachtree St NW</p>
     <p>Atlanta, GA 30308</p>
-    <p><a href="mailto:kaiwang.gua@gmail.com">kaiwang.gua@gmail.com</a></p>
+    <p><a href="mailto:kwang692@gatech.edu">kwang692@gatech.edu</a></p>
 
 news: true
 selected_papers: true

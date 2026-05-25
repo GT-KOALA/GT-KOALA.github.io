@@ -1,15 +1,36 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: Teaching
+description: Courses taught at Georgia Tech by Prof. Kai Wang.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 5
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Georgia Institute of Technology
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### CSE/ISyE 6740 — Computational Data Analysis (Machine Learning)
 
-{% include courses.liquid %}
+**Level:** Graduate / Advanced Undergraduate  
+**Frequency:** Fall and Spring semesters
+
+An introduction to statistical machine learning and data analysis. Topics include:
+supervised learning (regression, classification, SVMs, neural networks),
+unsupervised learning (clustering, dimensionality reduction, PCA),
+probabilistic graphical models, and optimization methods for ML.
+
+---
+
+### CSE 8803 — Special Topics: AI for Social Good
+
+**Level:** Graduate  
+**Frequency:** Offered periodically
+
+Advanced topics at the intersection of AI, optimization, and social impact applications.
+Topics include decision-focused learning, restless multi-armed bandits, game-theoretic
+planning, and deployed AI systems in health and conservation. Students complete a
+research project applying these methods to a real-world social impact domain.
+
+---
+
+*For course materials, slides, and assignments, enrolled students should refer to Canvas.*
