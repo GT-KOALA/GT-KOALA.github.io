@@ -1,0 +1,10 @@
+---
+layout: page
+permalink: /research/
+title: Research
+description: Research themes and ongoing projects in the KOALA Lab.
+nav: true
+nav_order: 4
+---
+
+{% include projects.liquid %}
