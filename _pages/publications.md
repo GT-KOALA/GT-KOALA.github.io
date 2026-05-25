@@ -2,19 +2,19 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: >
-  Publications from the KOALA Lab. Kai Wang's name is <u>underlined</u>.
-  See also <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ">Google Scholar</a>.
+description: Publications from the KOALA Lab at Georgia Tech.
 nav: true
 nav_order: 1
 ---
 
-<div class="publications-controls mb-3">
-  <div id="year-filter" class="mb-2"></div>
-  <p class="text-muted small mb-0">
-    Use the year tags above or the search box below to find papers.
-  </p>
-</div>
+<p class="text-muted mb-1">
+  Kai Wang's name is <u>underlined</u>. See also
+  <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ" target="_blank">Google Scholar</a>.
+</p>
+
+{% include bib_search.liquid %}
+
+<div id="year-filter" class="my-3"></div>
 
 <div class="publications">
 {% bibliography %}
@@ -25,40 +25,35 @@ document.addEventListener('DOMContentLoaded', function () {
   var pubDiv = document.querySelector('div.publications');
   if (!pubDiv) return;
 
-  var yearHeadings = Array.from(pubDiv.querySelectorAll('h2.year'));
+  // al-folio uses h2.bibliography for year group headers
+  var yearHeadings = Array.from(pubDiv.querySelectorAll('h2.bibliography'));
   if (yearHeadings.length === 0) return;
 
   var filterDiv = document.getElementById('year-filter');
 
-  // Label
   var label = document.createElement('span');
   label.className = 'fw-semibold me-2 align-middle';
-  label.textContent = 'Year:';
+  label.textContent = 'Filter by year:';
   filterDiv.appendChild(label);
 
-  // "All" button
   filterDiv.appendChild(makeBtn('All', 'all', true));
 
-  // One button per year (order matches group_order: descending)
   yearHeadings.forEach(function (h) {
     var year = h.textContent.trim();
-    h.id = 'year-' + year;
+    h.dataset.filterYear = year;
     filterDiv.appendChild(makeBtn(year, year, false));
   });
 
-  // Click handler
   filterDiv.addEventListener('click', function (e) {
     var btn = e.target.closest('.year-btn');
     if (!btn) return;
 
     var selected = btn.dataset.year;
 
-    // Toggle active state
     filterDiv.querySelectorAll('.year-btn').forEach(function (b) {
       b.classList.toggle('active', b.dataset.year === selected);
     });
 
-    // Show/hide year sections (h2 + following ol.bibliography sibling)
     yearHeadings.forEach(function (h) {
       var show = selected === 'all' || h.textContent.trim() === selected;
       h.style.display = show ? '' : 'none';
