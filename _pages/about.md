@@ -50,8 +50,7 @@ to create social impact — specifically in health, public health, and environme
 
 ## Joining the Lab
 
-The Fall 2026 PhD admission cycle has closed. We may recruit **1–2 PhD students** for
-**Fall 2027** — prospective students are welcome to apply through the
+We will recruit **1–2 PhD students** for **Fall 2027** — prospective students are welcome to apply through the
 [Georgia Tech CSE PhD program](https://cse.gatech.edu/academics/phd) and reach out by email.
 
 We have **limited capacity** for MS/BS students — we encourage you to take our courses first
