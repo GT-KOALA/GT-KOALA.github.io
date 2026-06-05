@@ -12,7 +12,7 @@ nav_order: 2
 <div class="card mt-3 p-3">
   <div class="row">
     <div class="col-sm-2">
-      <img src="/assets/img/kai_wang.jpg" class="img-fluid rounded" alt="Kai Wang" onerror="this.style.display='none'">
+      <img src="/assets/img/kai_wang_profile.jpg" class="img-fluid rounded" alt="Kai Wang" onerror="this.style.display='none'">
     </div>
     <div class="col-sm-10">
       <h5><a href="https://guaguakai.com" target="_blank">Kai Wang</a></h5>
