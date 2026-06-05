@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: kai_wang.jpg
+  image: koala_lab.jpg
   image_circular: false
 
 news: true
