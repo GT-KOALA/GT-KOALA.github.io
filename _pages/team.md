@@ -17,7 +17,7 @@ nav_order: 2
     <div class="col-sm-10">
       <h5><a href="https://guaguakai.com" target="_blank">Kai Wang</a></h5>
       <p>Assistant Professor, School of Computational Science and Engineering, Georgia Tech<br>
-      PhD, Harvard University (advised by Prof. Milind Tambe)<br>
+      PhD, Harvard University<br>
       Office: CODA S1309 &nbsp;·&nbsp;
       <a href="mailto:kaiwang.gua@gmail.com">kaiwang.gua@gmail.com</a> &nbsp;·&nbsp;
       <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ">Google Scholar</a> &nbsp;·&nbsp;
