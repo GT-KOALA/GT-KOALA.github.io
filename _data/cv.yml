@@ -3,7 +3,7 @@ cv:
   label: Assistant Professor
   email: kwang692@gatech.edu
   location: Atlanta, GA
-  image: kai_wang.jpg
+  image: kai_wang_profile.jpg
   summary: >
     Assistant Professor in the School of Computational Science and Engineering at
     Georgia Institute of Technology. Research focuses on AI, machine learning,
@@ -34,18 +34,25 @@ cv:
         url: https://www.harvard.edu/
         area: Computer Science
         studyType: PhD
-        start_date: 2018
+        start_date: 2017
         end_date: 2023
         highlights:
           - "Advisor: Prof. Milind Tambe"
           - "Research on AI, optimization, and multi-agent systems for social good"
+
+      - institution: National Taiwan University
+        location: Taipei, Taiwan
+        area: Electrical Engineering and Mathematics
+        studyType: B.S.
+        start_date: 2012
+        end_date: 2017
 
     Experience:
       - company: Georgia Institute of Technology
         position: Assistant Professor
         location: Atlanta, GA
         url: https://cse.gatech.edu/
-        start_date: 2023
+        start_date: "2024-01"
         end_date: present
         summary: School of Computational Science and Engineering
         highlights:
@@ -53,32 +60,29 @@ cv:
           - Research on decision-focused learning, restless bandits, algorithmic game theory, and AI for social impact
           - "Courses: CSE/ISyE 6740 (Computational Data Analysis), CSE 8803 (AI for Social Good)"
 
-      - company: Harvard University
-        position: Postdoctoral Research Fellow
+      - company: Massachusetts Institute of Technology
+        position: Postdoctoral Researcher
         location: Cambridge, MA
-        url: https://teamcore.seas.harvard.edu/
-        start_date: 2023
-        end_date: 2023
-        summary: Teamcore Lab, School of Engineering and Applied Sciences
+        start_date: "2023-08"
+        end_date: "2023-12"
+        summary: "Hosted by Marzyeh Ghassemi and Suvrit Sra"
 
     Awards:
-      - title: Schmidt Science AI2050 Early Career Fellow
+      - title: Schmidt Sciences AI2050 Fellowship
         awarder: Schmidt Sciences
-        date: 2025-01-01
+        date: 2024-06-01
         url: https://ai2050.schmidtsciences.org/
         summary: Selected for research developing AI solutions for social impact.
 
       - title: Siebel Scholar
         awarder: Siebel Scholars Foundation
-        date: 2022-01-01
+        date: 2023-01-01
         summary: Awarded to exceptional graduate students in computer science.
 
-      - title: ICML Spotlight
-        awarder: ICML 2026
-        date: 2026-07-01
-        summary: >
-          "A Fully First-Order Layer for Differentiable Optimization"
-          (Zhao, Mo, Ho, Amos, Wang).
+      - title: Silver Medal
+        awarder: International Mathematical Olympiad
+        date: 2011-01-01
+        summary: "Awarded in 2010 and 2011."
 
       - title: Best Paper Runner-Up
         awarder: AAAI 2021
@@ -86,39 +90,3 @@ cv:
         summary: >
           "Dual-Mandate Patrols: Multi-Armed Bandits for Green Security"
           (Xu, Bondi, Fang, Perrault, Wang, Tambe).
-
-      - title: NeurIPS Spotlight
-        awarder: NeurIPS 2021
-        date: 2021-12-01
-        summary: >
-          "Learning MDPs from Features: Predict-Then-Optimize for Sequential
-          Decision Problems by Reinforcement Learning."
-
-      - title: NeurIPS Spotlight
-        awarder: NeurIPS 2020
-        date: 2020-12-01
-        summary: >
-          "Automatically Learning Compact Quality-aware Surrogates for
-          Optimization Problems."
-
-    Skills:
-      - name: Machine Learning & Optimization
-        level: Expert
-        icon: fa-solid fa-brain
-        keywords: "Decision-Focused Learning, Differentiable Optimization, Bilevel Optimization, Reinforcement Learning"
-
-      - name: Multi-Agent Systems
-        level: Expert
-        icon: fa-solid fa-network-wired
-        keywords: "Restless Bandits, Stackelberg Games, Nash Equilibrium, Security Games"
-
-      - name: AI for Social Impact
-        level: Expert
-        icon: fa-solid fa-heart
-        keywords: "Maternal Health, Pediatric Medicine, Wildlife Conservation, Environmental Monitoring"
-
-    Languages:
-      - name: English
-        summary: "Fluent"
-      - name: Chinese (Mandarin)
-        summary: "Native"
