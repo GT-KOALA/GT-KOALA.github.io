@@ -36,6 +36,10 @@ nav_order: 2
 | [Tianyi Chen](https://tianyyiii.github.io/) | ML PhD | Reinforcement learning, diffusion policy |
 | [Zihao Zhao](https://www.zihaozhao.site/) | CS PhD | Differentiable optimization, decision-focused learning |
 | [Shing-Hei Ho](https://sites.google.com/view/shinghei/home) | ML PhD | First-order methods, optimization layers |
+| Yi-Ching Lee | CS PhD | — |
+| Wanchaloem Wunkaew (Omzin) | CSE PhD | — |
+| Grace Seoyoung Ko | CSE PhD | — |
+| Shuhan Zhang | ML PhD | — |
 
 ---
 
