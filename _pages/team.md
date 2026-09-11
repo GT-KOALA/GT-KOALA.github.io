@@ -31,46 +31,47 @@ nav_order: 2
 
 ## PhD Students
 
-| Name | Program | Research |
-|---|---|---|
-| [Tianyi Chen](https://tianyyiii.github.io/) | ML PhD | Reinforcement learning, diffusion policy |
-| [Zihao Zhao](https://www.zihaozhao.site/) | CS PhD | Differentiable optimization, decision-focused learning |
-| [Shing-Hei Ho](https://sites.google.com/view/shinghei/home) | ML PhD | First-order methods, optimization layers |
-| Yi-Ching Lee | CS PhD | — |
-| Wanchaloem Wunkaew (Omzin) | CSE PhD | — |
-| Grace Seoyoung Ko | CSE PhD | — |
-| Shuhan Zhang | ML PhD | — |
+| Name                                                        | Program | Research                                               |
+| ----------------------------------------------------------- | ------- | ------------------------------------------------------ |
+| [Tianyi Chen](https://tianyyiii.github.io/)                 | ML PhD  | Reinforcement learning, diffusion policy               |
+| [Zihao Zhao](https://www.zihaozhao.site/)                   | CS PhD  | Differentiable optimization, decision-focused learning |
+| [Shing-Hei Ho](https://sites.google.com/view/shinghei/home) | ML PhD  | First-order methods, optimization layers               |
+| Yi-Ching Lee                                                | CS PhD  | —                                                      |
+| Wanchaloem Wunkaew (Omzin)                                  | CSE PhD | —                                                      |
+| Grace Seoyoung Ko                                           | CSE PhD | —                                                      |
+| Shuhan Zhang                                                | ML PhD  | —                                                      |
 
 ---
 
 ## MS Students
 
-| Name | Program | |
-|---|---|---|
-| Cac Phan | ECE MS | Stochastic bilevel optimization |
-| Zenghui Sun | CSE MS | Networked restless bandits |
-| Ashwath Karunakaram | CS MS | — |
-| Soumil Sahu | CSE MS | — |
+| Name                | Program |                                 |
+| ------------------- | ------- | ------------------------------- |
+| Cac Phan            | ECE MS  | Stochastic bilevel optimization |
+| Zenghui Sun         | CSE MS  | Networked restless bandits      |
+| Ashwath Karunakaram | CS MS   | —                               |
+| Soumil Sahu         | CSE MS  | —                               |
+| Shreeyash Gowaikar  | CSE MS  | —                               |
 
 ---
 
 ## Incoming
 
-| Name | Role | Start |
-|---|---|---|
+| Name         | Role    | Start     |
+| ------------ | ------- | --------- |
 | Yu-Heng Hung | Postdoc | Fall 2026 |
 
 ---
 
 ## Alumni
 
-| Name | Role at KOALA | Now |
-|---|---|---|
-| Nathan Blackthorn | ML PhD | — |
-| Hanmo Zhang | CS Undergrad → MS | MS student at CMU |
-| Kavya Velmurugan | CS MS | Graduated |
-| Chen Lin | Math CSE MS | ML PhD student at Georgia Tech |
-| Timi Omoteso | CS Undergrad | Graduated |
+| Name              | Role at KOALA     | Now                            |
+| ----------------- | ----------------- | ------------------------------ |
+| Nathan Blackthorn | ML PhD            | —                              |
+| Hanmo Zhang       | CS Undergrad → MS | MS student at CMU              |
+| Kavya Velmurugan  | CS MS             | Graduated                      |
+| Chen Lin          | Math CSE MS       | ML PhD student at Georgia Tech |
+| Timi Omoteso      | CS Undergrad      | Graduated                      |
 
 ---
 
