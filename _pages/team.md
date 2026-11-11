@@ -12,19 +12,13 @@ nav_order: 2
 
   <section class="team-lead" aria-labelledby="team-lead-heading">
     <a href="https://guaguakai.com/" class="team-lead-photo" aria-label="Kai Wang's personal website">
-      <img src="{{ '/assets/img/team/kai-wang.jpg' | relative_url }}" alt="Kai Wang" width="240" height="280">
+      <img src="{{ '/assets/img/team/kai-wang.jpg' | relative_url }}" alt="Kai Wang">
     </a>
     <div>
-      <p class="team-eyebrow">Principal Investigator</p>
-      <h2 id="team-lead-heading"><a href="https://guaguakai.com/">Kai Wang <span aria-hidden="true">↗</span></a></h2>
-      <p>Assistant Professor<br>School of Computational Science and Engineering, Georgia Tech</p>
-      <p>PhD in Computer Science, Harvard University; advised by <a href="https://teamcore.seas.harvard.edu/">Milind Tambe</a>.</p>
-      <p class="team-meta">CODA S1309 · <a href="mailto:kaiwang.gua@gmail.com">kaiwang.gua@gmail.com</a></p>
-      <div class="team-lead-links">
-        <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ">Google Scholar</a>
-        <a href="https://github.com/guaguakai">GitHub</a>
-        <a href="https://twitter.com/kaiwang_gua">Twitter</a>
-      </div>
+      <h2 id="team-lead-heading"><a href="https://guaguakai.com/">Kai Wang</a></h2>
+      <p>Principal Investigator · Assistant Professor</p>
+      <p class="team-meta">School of Computational Science and Engineering, Georgia Tech<br>
+      <a href="mailto:kaiwang.gua@gmail.com">kaiwang.gua@gmail.com</a> · CODA S1309</p>
     </div>
   </section>
 

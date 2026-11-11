@@ -1,91 +1,85 @@
 .team-page {
   .team-intro {
+    margin-bottom: 1.25rem;
     color: var(--global-text-color-light);
-    margin-bottom: 2rem;
   }
   .team-lead {
-    display: grid;
-    grid-template-columns: 200px minmax(0, 1fr);
-    gap: 2rem;
+    display: flex;
     align-items: center;
-    padding: 1.5rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 12px;
-    background: var(--global-card-bg-color);
-    margin-bottom: 3rem;
-    h2 {
-      margin: 0 0 0.75rem;
-    }
-    p:last-child {
-      margin-bottom: 0;
-    }
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .team-lead-photo {
+    flex: 0 0 100px;
   }
   .team-lead-photo img {
-    width: 100%;
-    height: 240px;
+    display: block;
+    width: 100px;
+    height: 120px;
     object-fit: cover;
-    object-position: center 25%;
-    border-radius: 8px;
+    object-position: 65% center;
+    border-radius: 4px;
   }
-  .team-eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--global-theme-color);
+  .team-lead h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.25rem;
+  }
+  .team-lead p {
+    margin: 0 0 0.35rem;
+    font-size: 0.9rem;
   }
   .team-meta {
-    font-size: 0.9rem;
+    color: var(--global-text-color-light);
     overflow-wrap: anywhere;
   }
-  .team-lead-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    font-size: 0.9rem;
-  }
   .team-section {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .team-section-heading {
     display: flex;
-    align-items: center;
-    gap: 0.75rem;
+    align-items: baseline;
+    gap: 0.65rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.5rem;
     margin-bottom: 1.25rem;
   }
   .team-section-heading h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .team-count {
+    font-size: 0.8rem;
     color: var(--global-text-color-light);
-    font-size: 0.9rem;
   }
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.4rem 1rem;
   }
   .team-card {
     min-width: 0;
+    text-align: center;
   }
   .team-portrait {
+    width: 140px;
+    height: 160px;
+    max-width: 100%;
+    margin: 0 auto;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 4px;
     background: var(--global-card-bg-color);
   }
   .team-portrait img {
     display: block;
     width: 100%;
-    height: auto;
-    aspect-ratio: 1;
+    height: 100%;
     object-fit: cover;
     object-position: center 25%;
   }
   .team-card h3 {
-    font-size: 1.05rem;
-    line-height: 1.4;
-    margin: 0.85rem 0 0.25rem;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    margin: 0.5rem 0 0.15rem;
     color: var(--global-text-color);
   }
   .team-person-link {
@@ -97,45 +91,36 @@
   }
   a:focus-visible {
     outline: 2px solid var(--global-theme-color);
-    outline-offset: 5px;
-    border-radius: 4px;
+    outline-offset: 4px;
   }
-  .team-role {
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-  }
+  .team-role,
   .team-detail {
-    font-size: 0.85rem;
-    color: var(--global-text-color-light);
-    line-height: 1.5;
+    font-size: 0.8rem;
+    line-height: 1.4;
     margin: 0;
   }
+  .team-detail {
+    color: var(--global-text-color-light);
+    margin-top: 0.2rem;
+  }
   @media (max-width: 767px) {
+    .team-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 575px) {
     .team-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .team-lead {
-      grid-template-columns: 140px minmax(0, 1fr);
-      gap: 1.25rem;
-      padding: 1rem;
-    }
-    .team-lead-photo img {
-      height: 180px;
-    }
-  }
-  @media (max-width: 479px) {
-    .team-lead {
-      grid-template-columns: 1fr;
+      gap: 0.85rem;
     }
     .team-lead-photo {
-      max-width: 180px;
+      flex-basis: 80px;
     }
-    .team-grid {
-      gap: 1.5rem 1rem;
-    }
-    .team-card h3 {
-      font-size: 0.95rem;
+    .team-lead-photo img {
+      width: 80px;
+      height: 100px;
     }
   }
 }

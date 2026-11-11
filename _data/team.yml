@@ -1,28 +1,15 @@
 [
   {
-    "title": "PhD Students",
+    "title": "Current Members · PhD & Postdocs",
     "members":
       [
-        {
-          "name": "Tianyi Chen",
-          "role": "ML PhD",
-          "image": "assets/img/team/tianyi-chen.jpg",
-          "url": "https://tianyyiii.github.io/",
-          "detail": "Reinforcement learning, diffusion policy",
-        },
-        {
-          "name": "Zihao Zhao",
-          "role": "CS PhD",
-          "image": "assets/img/team/zihao-zhao.jpg",
-          "url": "https://www.zihaozhao.site/",
-          "detail": "Differentiable optimization, decision-focused learning",
-        },
+        { "name": "Tianyi Chen", "role": "ML PhD", "image": "assets/img/team/tianyi-chen.jpg", "url": "https://tianyyiii.github.io/" },
+        { "name": "Zihao Zhao", "role": "CS PhD", "image": "assets/img/team/zihao-zhao.jpg", "url": "https://www.zihaozhao.site/" },
         {
           "name": "Shing-Hei Ho",
           "role": "ML PhD",
           "image": "assets/img/team/shing-hei-ho.jpg",
           "url": "https://sites.google.com/view/shinghei/home",
-          "detail": "First-order methods, optimization layers",
         },
         { "name": "Yi-Ching Lee", "role": "CS PhD", "image": "assets/img/team/yi-ching-lee.jpg", "url": "https://yichingleee.github.io/" },
         { "name": "Wanchaloem Wunkaew (Omzin)", "role": "CSE PhD", "image": "assets/img/team/wanchaloem-wunkaew.jpg" },
@@ -33,26 +20,15 @@
           "url": "https://www.linkedin.com/in/grace-ko-17712b230",
         },
         { "name": "Shuhan Zhang", "role": "ML PhD", "image": "assets/img/team/shuhan-zhang.jpg", "url": "https://asimov-chuang.github.io/" },
+        { "name": "Yu-Heng Hung", "role": "Postdoc", "image": "assets/img/team/yu-heng-hung.jpg" },
       ],
   },
   {
-    "title": "MS Students",
+    "title": "Master’s & Undergraduate Students",
     "members":
       [
-        {
-          "name": "Cac Phan",
-          "role": "ECE MS",
-          "image": "assets/img/team/cac-phan.jpg",
-          "url": "https://www.linkedin.com/in/sphan1411/",
-          "detail": "Stochastic bilevel optimization",
-        },
-        {
-          "name": "Zenghui Sun",
-          "role": "CSE MS",
-          "image": "assets/img/team/zenghui-sun.jpg",
-          "url": "https://www.linkedin.com/in/zenghuisun",
-          "detail": "Networked restless bandits",
-        },
+        { "name": "Cac Phan", "role": "ECE MS", "image": "assets/img/team/cac-phan.jpg", "url": "https://www.linkedin.com/in/sphan1411/" },
+        { "name": "Zenghui Sun", "role": "CSE MS", "image": "assets/img/team/zenghui-sun.jpg", "url": "https://www.linkedin.com/in/zenghuisun" },
         {
           "name": "Ashwath Karunakaram",
           "role": "CS MS",
@@ -72,10 +48,6 @@
           "url": "https://shreeyashgo.github.io/aboutMe/",
         },
       ],
-  },
-  {
-    "title": "Incoming",
-    "members": [{ "name": "Yu-Heng Hung", "role": "Postdoc", "image": "assets/img/team/yu-heng-hung.jpg", "detail": "Starts Fall 2026" }],
   },
   {
     "title": "Alumni",
