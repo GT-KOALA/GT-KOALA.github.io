@@ -27,14 +27,7 @@
     "title": "Master’s & Undergraduate Students",
     "members":
       [
-        { "name": "Cac Phan", "role": "ECE MS", "image": "assets/img/team/cac-phan.jpg", "url": "https://www.linkedin.com/in/sphan1411/" },
         { "name": "Zenghui Sun", "role": "CSE MS", "image": "assets/img/team/zenghui-sun.jpg", "url": "https://www.linkedin.com/in/zenghuisun" },
-        {
-          "name": "Ashwath Karunakaram",
-          "role": "CS MS",
-          "image": "assets/img/team/ashwath-karunakaram.jpg",
-          "url": "https://ashwathkarunakaram.com/",
-        },
         {
           "name": "Soumil Sahu",
           "role": "CSE MS",
@@ -75,6 +68,13 @@
           "image": "assets/img/team/timi-omoteso.jpg",
           "url": "https://github.com/TimiOmo",
           "detail": "Graduated",
+        },
+        { "name": "Cac Phan", "role": "ECE MS", "image": "assets/img/team/cac-phan.jpg", "url": "https://www.linkedin.com/in/sphan1411/" },
+        {
+          "name": "Ashwath Karunakaram",
+          "role": "CS MS",
+          "image": "assets/img/team/ashwath-karunakaram.jpg",
+          "url": "https://ashwathkarunakaram.com/",
         },
       ],
   },

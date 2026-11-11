@@ -6,12 +6,7 @@
   <div class="team-portrait">
     <img src="{{ member.image | relative_url }}" alt="{{ member.name | escape }}" loading="lazy">
   </div>
-  <h3>
-    {{ member.name -}}
-    {%- if member.url %}
-      <span aria-hidden="true">↗</span>
-    {%- endif %}
-  </h3>
+  <h3>{{ member.name }}</h3>
   {% if member.url %}</a>{% endif %}
   <p class="team-role">{{ member.role }}</p>
   {% if member.detail %}

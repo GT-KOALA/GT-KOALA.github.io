@@ -11,7 +11,7 @@ nav_order: 2
   <p class="team-intro">Meet the people developing learning and optimization methods for real-world social impact.</p>
 
   <section class="team-lead" aria-labelledby="team-lead-heading">
-    <a href="https://guaguakai.com/" class="team-lead-photo" aria-label="Kai Wang's personal website">
+    <a href="https://guaguakai.com/" class="team-lead-photo team-portrait" aria-label="Kai Wang's personal website">
       <img src="{{ '/assets/img/team/kai-wang.jpg' | relative_url }}" alt="Kai Wang">
     </a>
     <div>

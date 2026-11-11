@@ -9,16 +9,12 @@
     gap: 1.25rem;
     margin-bottom: 2rem;
   }
-  .team-lead-photo {
-    flex: 0 0 100px;
+  .team-lead-photo.team-portrait {
+    flex: 0 0 140px;
+    margin: 0;
   }
   .team-lead-photo img {
-    display: block;
-    width: 100px;
-    height: 120px;
-    object-fit: cover;
     object-position: 65% center;
-    border-radius: 4px;
   }
   .team-lead h2 {
     margin: 0 0 0.35rem;
@@ -114,13 +110,6 @@
     }
     .team-lead {
       gap: 0.85rem;
-    }
-    .team-lead-photo {
-      flex-basis: 80px;
-    }
-    .team-lead-photo img {
-      width: 80px;
-      height: 100px;
     }
   }
 }
