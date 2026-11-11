@@ -7,74 +7,41 @@ nav: true
 nav_order: 2
 ---
 
-## Principal Investigator
+<div class="team-page">
+  <p class="team-intro">Meet the people developing learning and optimization methods for real-world social impact.</p>
 
-<div class="card mt-3 p-3">
-  <div class="row">
-    <div class="col-sm-2">
-      <img src="/assets/img/kai_wang_profile.jpg" class="img-fluid rounded" alt="Kai Wang" onerror="this.style.display='none'">
+  <section class="team-lead" aria-labelledby="team-lead-heading">
+    <a href="https://guaguakai.com/" class="team-lead-photo" aria-label="Kai Wang's personal website">
+      <img src="{{ '/assets/img/team/kai-wang.jpg' | relative_url }}" alt="Kai Wang" width="240" height="280">
+    </a>
+    <div>
+      <p class="team-eyebrow">Principal Investigator</p>
+      <h2 id="team-lead-heading"><a href="https://guaguakai.com/">Kai Wang <span aria-hidden="true">↗</span></a></h2>
+      <p>Assistant Professor<br>School of Computational Science and Engineering, Georgia Tech</p>
+      <p>PhD in Computer Science, Harvard University; advised by <a href="https://teamcore.seas.harvard.edu/">Milind Tambe</a>.</p>
+      <p class="team-meta">CODA S1309 · <a href="mailto:kaiwang.gua@gmail.com">kaiwang.gua@gmail.com</a></p>
+      <div class="team-lead-links">
+        <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ">Google Scholar</a>
+        <a href="https://github.com/guaguakai">GitHub</a>
+        <a href="https://twitter.com/kaiwang_gua">Twitter</a>
+      </div>
     </div>
-    <div class="col-sm-10">
-      <h5><a href="https://guaguakai.com" target="_blank">Kai Wang</a></h5>
-      <p>Assistant Professor, School of Computational Science and Engineering, Georgia Tech<br>
-      PhD in Computer Science, Harvard University; advised by
-      <a href="https://teamcore.seas.harvard.edu/">Milind Tambe</a><br>
-      Office: CODA S1309 &nbsp;·&nbsp;
-      <a href="mailto:kaiwang.gua@gmail.com">kaiwang.gua@gmail.com</a> &nbsp;·&nbsp;
-      <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ">Google Scholar</a> &nbsp;·&nbsp;
-      <a href="https://github.com/guaguakai">GitHub</a> &nbsp;·&nbsp;
-      <a href="https://twitter.com/kaiwang_gua">Twitter</a></p>
-    </div>
-  </div>
+  </section>
+
+{% for group in site.data.team %}
+<section class="team-section" aria-labelledby="team-{{ group.title | slugify }}">
+<div class="team-section-heading">
+<h2 id="team-{{ group.title | slugify }}">{{ group.title }}</h2>
+<span class="team-count">{{ group.members.size }}</span>
 </div>
-
----
-
-## PhD Students
-
-| Name                                                        | Program | Research                                               |
-| ----------------------------------------------------------- | ------- | ------------------------------------------------------ |
-| [Tianyi Chen](https://tianyyiii.github.io/)                 | ML PhD  | Reinforcement learning, diffusion policy               |
-| [Zihao Zhao](https://www.zihaozhao.site/)                   | CS PhD  | Differentiable optimization, decision-focused learning |
-| [Shing-Hei Ho](https://sites.google.com/view/shinghei/home) | ML PhD  | First-order methods, optimization layers               |
-| Yi-Ching Lee                                                | CS PhD  | —                                                      |
-| Wanchaloem Wunkaew (Omzin)                                  | CSE PhD | —                                                      |
-| Grace Seoyoung Ko                                           | CSE PhD | —                                                      |
-| Shuhan Zhang                                                | ML PhD  | —                                                      |
-
----
-
-## MS Students
-
-| Name                | Program |                                 |
-| ------------------- | ------- | ------------------------------- |
-| Cac Phan            | ECE MS  | Stochastic bilevel optimization |
-| Zenghui Sun         | CSE MS  | Networked restless bandits      |
-| Ashwath Karunakaram | CS MS   | —                               |
-| Soumil Sahu         | CSE MS  | —                               |
-| Shreeyash Gowaikar  | CSE MS  | —                               |
-
----
-
-## Incoming
-
-| Name         | Role    | Start     |
-| ------------ | ------- | --------- |
-| Yu-Heng Hung | Postdoc | Fall 2026 |
-
----
-
-## Alumni
-
-| Name              | Role at KOALA     | Now                            |
-| ----------------- | ----------------- | ------------------------------ |
-| Nathan Blackthorn | ML PhD            | —                              |
-| Hanmo Zhang       | CS Undergrad → MS | MS student at CMU              |
-| Kavya Velmurugan  | CS MS             | Graduated                      |
-| Chen Lin          | Math CSE MS       | ML PhD student at Georgia Tech |
-| Timi Omoteso      | CS Undergrad      | Graduated                      |
-
----
+<div class="team-grid">
+{% for member in group.members %}
+{% include team_member.liquid member=member %}
+{% endfor %}
+</div>
+</section>
+{% endfor %}
+</div>
 
 ## Join Us
 

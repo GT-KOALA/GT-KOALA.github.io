@@ -1,0 +1,141 @@
+.team-page {
+  .team-intro {
+    color: var(--global-text-color-light);
+    margin-bottom: 2rem;
+  }
+  .team-lead {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 2rem;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    background: var(--global-card-bg-color);
+    margin-bottom: 3rem;
+    h2 {
+      margin: 0 0 0.75rem;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .team-lead-photo img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 8px;
+  }
+  .team-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+  .team-meta {
+    font-size: 0.9rem;
+    overflow-wrap: anywhere;
+  }
+  .team-lead-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+  .team-section {
+    margin-bottom: 3rem;
+  }
+  .team-section-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .team-section-heading h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .team-count {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem 1.5rem;
+  }
+  .team-card {
+    min-width: 0;
+  }
+  .team-portrait {
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--global-card-bg-color);
+  }
+  .team-portrait img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center 25%;
+  }
+  .team-card h3 {
+    font-size: 1.05rem;
+    line-height: 1.4;
+    margin: 0.85rem 0 0.25rem;
+    color: var(--global-text-color);
+  }
+  .team-person-link {
+    display: block;
+    text-decoration: none;
+  }
+  .team-person-link:hover h3 {
+    color: var(--global-theme-color);
+  }
+  a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 5px;
+    border-radius: 4px;
+  }
+  .team-role {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .team-detail {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+    margin: 0;
+  }
+  @media (max-width: 767px) {
+    .team-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .team-lead {
+      grid-template-columns: 140px minmax(0, 1fr);
+      gap: 1.25rem;
+      padding: 1rem;
+    }
+    .team-lead-photo img {
+      height: 180px;
+    }
+  }
+  @media (max-width: 479px) {
+    .team-lead {
+      grid-template-columns: 1fr;
+    }
+    .team-lead-photo {
+      max-width: 180px;
+    }
+    .team-grid {
+      gap: 1.5rem 1rem;
+    }
+    .team-card h3 {
+      font-size: 0.95rem;
+    }
+  }
+}

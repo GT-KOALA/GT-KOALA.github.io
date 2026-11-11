@@ -1,0 +1,20 @@
+{% assign member = include.member %}
+<article class="team-card">
+  {% if member.url %}
+    <a class="team-person-link" href="{{ member.url }}">
+  {% endif %}
+  <div class="team-portrait">
+    <img src="{{ member.image | relative_url }}" alt="{{ member.name | escape }}" loading="lazy" width="300" height="300">
+  </div>
+  <h3>
+    {{ member.name -}}
+    {%- if member.url %}
+      <span aria-hidden="true">↗</span>
+    {%- endif %}
+  </h3>
+  {% if member.url %}</a>{% endif %}
+  <p class="team-role">{{ member.role }}</p>
+  {% if member.detail %}
+    <p class="team-detail">{{ member.detail }}</p>
+  {% endif %}
+</article>

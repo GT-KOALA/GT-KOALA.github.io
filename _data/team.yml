@@ -1,0 +1,109 @@
+[
+  {
+    "title": "PhD Students",
+    "members":
+      [
+        {
+          "name": "Tianyi Chen",
+          "role": "ML PhD",
+          "image": "assets/img/team/tianyi-chen.jpg",
+          "url": "https://tianyyiii.github.io/",
+          "detail": "Reinforcement learning, diffusion policy",
+        },
+        {
+          "name": "Zihao Zhao",
+          "role": "CS PhD",
+          "image": "assets/img/team/zihao-zhao.jpg",
+          "url": "https://www.zihaozhao.site/",
+          "detail": "Differentiable optimization, decision-focused learning",
+        },
+        {
+          "name": "Shing-Hei Ho",
+          "role": "ML PhD",
+          "image": "assets/img/team/shing-hei-ho.jpg",
+          "url": "https://sites.google.com/view/shinghei/home",
+          "detail": "First-order methods, optimization layers",
+        },
+        { "name": "Yi-Ching Lee", "role": "CS PhD", "image": "assets/img/team/yi-ching-lee.jpg", "url": "https://yichingleee.github.io/" },
+        { "name": "Wanchaloem Wunkaew (Omzin)", "role": "CSE PhD", "image": "assets/img/team/wanchaloem-wunkaew.jpg" },
+        {
+          "name": "Grace Seoyoung Ko",
+          "role": "CSE PhD",
+          "image": "assets/img/team/grace-ko.jpg",
+          "url": "https://www.linkedin.com/in/grace-ko-17712b230",
+        },
+        { "name": "Shuhan Zhang", "role": "ML PhD", "image": "assets/img/team/shuhan-zhang.jpg", "url": "https://asimov-chuang.github.io/" },
+      ],
+  },
+  {
+    "title": "MS Students",
+    "members":
+      [
+        {
+          "name": "Cac Phan",
+          "role": "ECE MS",
+          "image": "assets/img/team/cac-phan.jpg",
+          "url": "https://www.linkedin.com/in/sphan1411/",
+          "detail": "Stochastic bilevel optimization",
+        },
+        {
+          "name": "Zenghui Sun",
+          "role": "CSE MS",
+          "image": "assets/img/team/zenghui-sun.jpg",
+          "url": "https://www.linkedin.com/in/zenghuisun",
+          "detail": "Networked restless bandits",
+        },
+        {
+          "name": "Ashwath Karunakaram",
+          "role": "CS MS",
+          "image": "assets/img/team/ashwath-karunakaram.jpg",
+          "url": "https://ashwathkarunakaram.com/",
+        },
+        {
+          "name": "Soumil Sahu",
+          "role": "CSE MS",
+          "image": "assets/img/team/soumil-sahu.jpg",
+          "url": "https://www.linkedin.com/in/soumil-sahu-53723b187/",
+        },
+        {
+          "name": "Shreeyash Gowaikar",
+          "role": "CSE MS",
+          "image": "assets/img/team/shreeyash-gowaikar.jpg",
+          "url": "https://shreeyashgo.github.io/aboutMe/",
+        },
+      ],
+  },
+  {
+    "title": "Incoming",
+    "members": [{ "name": "Yu-Heng Hung", "role": "Postdoc", "image": "assets/img/team/yu-heng-hung.jpg", "detail": "Starts Fall 2026" }],
+  },
+  {
+    "title": "Alumni",
+    "members":
+      [
+        { "name": "Nathan Blackthorn", "role": "ML PhD", "image": "assets/img/team/nathan-blackthorn.jpg" },
+        {
+          "name": "Hanmo Zhang",
+          "role": "CS Undergrad → MS",
+          "image": "assets/img/team/hanmo-zhang.jpg",
+          "url": "https://www.linkedin.com/in/hanmo-zhang",
+          "detail": "MS student at CMU",
+        },
+        { "name": "Kavya Velmurugan", "role": "CS MS", "image": "assets/img/team/kavya-velmurugan.jpg", "detail": "Graduated" },
+        {
+          "name": "Chen Lin",
+          "role": "Math CSE MS",
+          "image": "assets/img/team/chen-lin.jpg",
+          "url": "https://clmcs.github.io/",
+          "detail": "ML PhD student at Georgia Tech",
+        },
+        {
+          "name": "Timi Omoteso",
+          "role": "CS Undergrad",
+          "image": "assets/img/team/timi-omoteso.jpg",
+          "url": "https://github.com/TimiOmo",
+          "detail": "Graduated",
+        },
+      ],
+  },
+]
