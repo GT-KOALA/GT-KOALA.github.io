@@ -25,6 +25,7 @@ deterioration signatures hours before clinical events, providing interpretable r
 trajectories to clinicians.
 
 **Key directions:**
+
 - Transformer architectures for irregularly-sampled clinical time series
 - Calibrated uncertainty quantification for high-stakes clinical decisions
 - Integration of structured (vitals) and unstructured (nursing notes) EHR data
@@ -35,4 +36,4 @@ trajectories to clinicians.
 cardiac arrests in pediatric wards, directly affecting patient outcomes at one of
 the largest pediatric healthcare systems in the United States.
 
-*This is an active collaboration. Results forthcoming.*
+_This is an active collaboration. Results forthcoming._

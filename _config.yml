@@ -201,9 +201,31 @@ enable_publication_badges:
   inspirehep: false
 
 filtered_bibtex_keywords:
-  [abbr, abstract, additional_info, altmetric, annotation, arxiv, award,
-   award_name, bibtex_show, blog, code, dimensions, eprint, google_scholar_id,
-   html, pdf, poster, preview, selected, slides, supp, video, website]
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    dimensions,
+    eprint,
+    google_scholar_id,
+    html,
+    pdf,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
 
 max_author_limit: 5
 more_authors_animation_delay: 10

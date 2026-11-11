@@ -17,7 +17,8 @@ nav_order: 2
     <div class="col-sm-10">
       <h5><a href="https://guaguakai.com" target="_blank">Kai Wang</a></h5>
       <p>Assistant Professor, School of Computational Science and Engineering, Georgia Tech<br>
-      PhD, Harvard University<br>
+      PhD in Computer Science, Harvard University; advised by
+      <a href="https://teamcore.seas.harvard.edu/">Milind Tambe</a><br>
       Office: CODA S1309 &nbsp;·&nbsp;
       <a href="mailto:kaiwang.gua@gmail.com">kaiwang.gua@gmail.com</a> &nbsp;·&nbsp;
       <a href="https://scholar.google.com/citations?user=spWVns8AAAAJ">Google Scholar</a> &nbsp;·&nbsp;
@@ -82,3 +83,8 @@ We will recruit **1–2 PhD students** for **Fall 2027** — prospective student
 
 MS/BS students at Georgia Tech are welcome to take our courses (CSE/ISyE 6740, CSE 8803)
 and reach out afterward. We have limited research capacity for non-PhD students.
+
+Prospective PhD students should list Kai Wang in their application and select the
+CS, ML, or CSE track in the School of CSE. When emailing, describe how your research
+interests overlap with the lab’s work. See the
+[prospective-student guidance](https://guaguakai.com/team) for additional details.

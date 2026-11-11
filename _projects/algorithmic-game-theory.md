@@ -12,6 +12,7 @@ Many real-world systems involve **strategic interactions** — defenders and att
 and responders. We develop scalable methods for computing and learning equilibria in these settings.
 
 **Key directions:**
+
 - End-to-end gradient descent for Stackelberg games
 - Deep fictitious play for continuous action spaces
 - Security games and green security patrol scheduling

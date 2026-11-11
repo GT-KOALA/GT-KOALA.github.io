@@ -14,16 +14,16 @@ or shared public goods.
 
 **Application domains:**
 
-*Maternal and Child Health* — Partnering with ARMMAN (India) to schedule health worker
+_Maternal and Child Health_ — Partnering with ARMMAN (India) to schedule health worker
 outreach for pregnant women, using RMAB-based systems evaluated in randomized control trials.
 
-*Pediatric Health* — Collaborating with Children's Healthcare of Atlanta on AI-driven early
+_Pediatric Health_ — Collaborating with Children's Healthcare of Atlanta on AI-driven early
 warning systems and opportunistic screening for Type 2 diabetes.
 
-*Wildlife Conservation* — Game-theoretic patrol scheduling to protect endangered species
+_Wildlife Conservation_ — Game-theoretic patrol scheduling to protect endangered species
 from poaching in large protected areas.
 
-*Fairness in AI* — Polarity-aware fair ranking and bias detection in LLM-based recommender
+_Fairness in AI_ — Polarity-aware fair ranking and bias detection in LLM-based recommender
 systems to ensure AI does not perpetuate disparities.
 
 **Selected publications:**

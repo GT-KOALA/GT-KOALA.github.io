@@ -13,6 +13,7 @@ outputs feed directly into optimization problems, trained end-to-end with respec
 quality rather than prediction error.
 
 **Key directions:**
+
 - Fully first-order methods for bilevel and linearly-constrained optimization
 - Differentiable optimization layers for neural networks
 - Predict-then-optimize for sequential decision problems (MDPs, RL)

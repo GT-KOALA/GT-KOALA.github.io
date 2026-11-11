@@ -13,12 +13,14 @@ related_publications: true
 scalable algorithms and deploy them in real-world systems.
 
 **Key directions:**
+
 - Whittle index policies and online learning for unknown dynamics
 - Decision-focused learning of RMAB transition parameters
 - Neural index policies for multi-action, heterogeneous-budget settings
 - Non-stationary and networked RMAB extensions
 
 **Deployments:**
+
 - Maternal and child health outreach scheduling (ARMMAN, India)
 - Pediatric early warning systems (Children's Healthcare of Atlanta)
 - Green security patrol scheduling (wildlife conservation)

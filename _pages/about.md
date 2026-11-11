@@ -16,7 +16,7 @@ selected_papers: true
 social: true
 ---
 
-## Welcome to the KOALA Lab 🐨
+## AI for Social Impact
 
 The **KOALA** (**K**nowledge of **O**ptimization and **L**earning **A**lgorithms) Lab is at
 the [School of Computational Science and Engineering](https://cse.gatech.edu/) at
@@ -38,6 +38,16 @@ to create social impact — specifically in health, public health, and environme
 - **AI for Social Impact** — Deployed systems for maternal health (ARMMAN), pediatric early
   warning (Children's Healthcare of Atlanta), and environmental monitoring.
 
+Explore our [research]({% link _pages/research.md %}) and meet the
+[team]({% link _pages/team.md %}).
+
+## Recognition and Support
+
+Kai Wang’s work has been recognized and supported by
+[Schmidt Sciences AI2050](https://ai2050.schmidtsciences.org/),
+[Siebel Scholars](https://www.siebelscholars.com/), NSF CISE Core Medium,
+and the Children’s Healthcare of Atlanta Pediatric Technology Center at Georgia Tech.
+
 ---
 
 ## Joining the Lab
@@ -47,3 +57,6 @@ We will recruit **1–2 PhD students** for **Fall 2027** — prospective student
 
 We have **limited capacity** for MS/BS students — we encourage you to take our courses first
 (CSE/ISyE 6740, CSE 8803) and reach out afterward.
+
+For inquiries, contact [Kai Wang](mailto:kaiwang.gua@gmail.com).
+Office: Georgia Tech CODA building, room S1309.
