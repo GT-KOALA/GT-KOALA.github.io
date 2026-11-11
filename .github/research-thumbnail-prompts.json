@@ -1,0 +1,26 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-11-11",
+  "assets": [
+    {
+      "file": "assets/img/research/decision-focused.jpg",
+      "prompt": "Use case: stylized-concept. Create one polished academic research card thumbnail, landscape 3:2 composition. A flowing neural network of translucent nodes transforms into an elegant optimization landscape with a single golden route leading to a precise decision point. Cohesive editorial 3D paper-and-matte-glass illustration on warm ivory background, deep navy and muted teal with restrained Georgia Tech gold accents. Clear large forms, generous negative space, sophisticated scientific publication aesthetic, soft studio shadows, no text, no letters, no numbers, no logos, no border. This is a conceptual illustration, not a scientific result."
+    },
+    {
+      "file": "assets/img/research/restless-bandits.jpg",
+      "prompt": "Use case: stylized-concept. Create one polished academic research card thumbnail, landscape 3:2 composition. Several small evolving state networks on floating platforms, with a few gold resource tokens allocated among them, suggesting sequential resource allocation under uncertainty. Cohesive editorial 3D paper-and-matte-glass illustration on warm ivory background, deep navy and muted teal with restrained Georgia Tech gold accents. Clear large forms, generous negative space, sophisticated scientific publication aesthetic, soft studio shadows, no text, no letters, no numbers, no logos, no border. This is a conceptual illustration, not a scientific result."
+    },
+    {
+      "file": "assets/img/research/game-theory.jpg",
+      "prompt": "Use case: stylized-concept. Create one polished academic research card thumbnail, landscape 3:2 composition. Abstract sculptural strategic players on a geometric board connected by branching teal and gold paths, representing multi-agent equilibrium and strategic interaction. Cohesive editorial 3D paper-and-matte-glass illustration on warm ivory background, deep navy and muted teal with restrained Georgia Tech gold accents. Clear large forms, generous negative space, sophisticated scientific publication aesthetic, soft studio shadows, no text, no letters, no numbers, no logos, no border. This is a conceptual illustration, not a scientific result."
+    },
+    {
+      "file": "assets/img/research/pediatric-care.jpg",
+      "prompt": "Use case: stylized-concept. Create one polished academic research card thumbnail, landscape 3:2 composition. A gentle abstract pediatric care scene: a small hospital bed silhouette and protective arc, with flowing vital-sign signals and predictive neural nodes, hopeful and calm. Cohesive editorial 3D paper-and-matte-glass illustration on warm ivory background, deep navy and muted teal with restrained Georgia Tech gold accents. Clear large forms, generous negative space, sophisticated scientific publication aesthetic, soft studio shadows, no text, no letters, no numbers, no logos, no border. This is a conceptual illustration, not a scientific result."
+    },
+    {
+      "file": "assets/img/research/social-impact.jpg",
+      "prompt": "Use case: stylized-concept. Create one polished academic research card thumbnail, landscape 3:2 composition. An interconnected miniature landscape of community healthcare, green forests and sustainable city blocks, joined by subtle intelligent network paths. Cohesive editorial 3D paper-and-matte-glass illustration on warm ivory background, deep navy and muted teal with restrained Georgia Tech gold accents. Clear large forms, generous negative space, sophisticated scientific publication aesthetic, soft studio shadows, no text, no letters, no numbers, no logos, no border. This is a conceptual illustration, not a scientific result."
+    }
+  ]
+}

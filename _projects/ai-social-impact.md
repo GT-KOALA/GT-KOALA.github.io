@@ -2,7 +2,7 @@
 layout: page
 title: AI for Social Impact
 description: Deploying AI systems for maternal health, pediatric care, conservation, and fairness.
-img: assets/img/project_social.png
+img: assets/img/research/social-impact.jpg
 importance: 4
 category: social-impact
 related_publications: true

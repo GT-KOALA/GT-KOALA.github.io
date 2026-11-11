@@ -2,7 +2,7 @@
 layout: page
 title: Restless Multi-Armed Bandits
 description: Scalable resource allocation algorithms for health, conservation, and beyond.
-img: assets/img/project_rmab.png
+img: assets/img/research/restless-bandits.jpg
 importance: 2
 category: social-impact
 related_publications: true

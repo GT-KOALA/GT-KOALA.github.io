@@ -99,6 +99,8 @@ kramdown:
 
 include: ["_pages", "_scripts"]
 exclude:
+  - assets/json/resume.json
+  - assets/rendercv/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

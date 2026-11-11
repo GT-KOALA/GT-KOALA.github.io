@@ -17,7 +17,9 @@ estimation, regression, decision trees, support vector machines, convex optimiza
 kernel methods, neural networks, and gradient descent. Advanced topics include
 CNNs, GNNs, autoencoders, diffusion models, Markov models, and reinforcement learning.
 
-[Course information and syllabus](https://guaguakai.com/cda)
+[Course website and lecture materials](https://gt-koala.github.io/Gatech-CSE6740/) ·
+[GitHub repository](https://github.com/GT-KOALA/Gatech-CSE6740) ·
+[Course overview](https://guaguakai.com/cda)
 
 ---
 

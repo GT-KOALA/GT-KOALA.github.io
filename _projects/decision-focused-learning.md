@@ -2,7 +2,7 @@
 layout: page
 title: Decision-Focused Learning
 description: End-to-end learning that optimizes for decision quality, not prediction accuracy.
-img: assets/img/project_dfl.png
+img: assets/img/research/decision-focused.jpg
 importance: 1
 category: machine-learning
 related_publications: true

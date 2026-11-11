@@ -2,7 +2,7 @@
 layout: page
 title: Algorithmic Game Theory
 description: Computing equilibria and learning strategies in multi-agent strategic settings.
-img: assets/img/project_game.png
+img: assets/img/research/game-theory.jpg
 importance: 3
 category: machine-learning
 related_publications: true

@@ -2,7 +2,7 @@
 layout: page
 title: Pediatric Early Warning Score
 description: Transformer-based models for predicting clinical deterioration in pediatric patients.
-img:
+img: assets/img/research/pediatric-care.jpg
 importance: 3
 category: social-impact
 related_publications: false
